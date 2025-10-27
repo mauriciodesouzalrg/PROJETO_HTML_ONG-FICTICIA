@@ -17,10 +17,15 @@ Além disso, busquei aplicar boas práticas de organização de pastas e escrita
 Estrutura do Projeto
 
 index.html - Página inicial, com informações sobre a ONG e contatos.
+
 projetos.html - Apresenta os projetos sociais, formas de voluntariado e doação. 
+
 cadastro.html - Contém o formulário de cadastro de voluntário com máscaras para CPF, telefone e CEP.
+
 script.js - Implementa recursos interativos, como menu responsivo, botão de rolagem ao topo, modo escuro e animações de rolagem.
+
 imagens - Diretório com as imagens utilizadas no site (logotipos e fotos dos projetos).
+
 css/style.css - Folha de estilo principal, responsável pela identidade visual do site.
 
 Tecnologias Utilizadas
