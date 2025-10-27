@@ -1,0 +1,101 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
+section img {
+  display: block;
+  margin: 80px auto 40px auto; /* 🔹 afasta 80px do topo, centraliza e dá 40px embaixo */
+  width: 650px; /* 🔹 diminui o tamanho da imagem */
+  height: auto; /* mantém proporção */
+}
+:root {
+  --bg: #fff;
+  --text: #222;
+  --accent: #2e8b57;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #f1f1f1;
+}
+
+header, footer {
+  background: var(--accent);
+  color: white;
+  padding: 10px 20px;
+  
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn {
+  background: var(--accent);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #256d47;
+}
+
+#top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    background: var(--accent);
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+}
