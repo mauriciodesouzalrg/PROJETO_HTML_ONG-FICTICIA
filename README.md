@@ -30,17 +30,22 @@ css/style.css - Folha de estilo principal, responsável pela identidade visual d
 
 Tecnologias Utilizadas
 
-- **HTML5** → Estrutura semântica das páginas. 
-- **CSS3** → Estilização e responsividade. 
-- **JavaScript** → Interatividade, máscaras e animações. 
+HTML5 - Estrutura semântica das páginas. 
 
-Conceitos Trabalhados
+CSS3 - Estilização e responsividade. 
 
-- Estrutura semântica em HTML5.
-- Uso de formulários com validação e formatação de campos.
-- Organização de conteúdo em múltiplas páginas.
-- Separação de responsabilidades (HTML, CSS e JS).
-- Implementação de recursos de usabilidade (scroll, modo escuro, contador animado).
+JavaScript - Interatividade, máscaras e animações. 
+
+Conceitos Trabalhados: 
+Estrutura semântica em HTML5.
+
+Uso de formulários com validação e formatação de campos.
+
+Organização de conteúdo em múltiplas páginas.
+
+Separação de responsabilidades (HTML, CSS e JS).
+
+Implementação de recursos de usabilidade (scroll, modo escuro, contador animado).
 
 Objetivo Acadêmico
 
