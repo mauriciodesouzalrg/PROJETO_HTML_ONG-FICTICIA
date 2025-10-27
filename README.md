@@ -68,3 +68,21 @@ Aplicação prática dos conceitos de front-end.
 Simulação de um site institucional real.
 
 
+Conformidade com WCAG 2.1
+
+O projeto foi desenvolvido seguindo as diretrizes da WCAG 2.1 (Web Content Accessibility Guidelines), garantindo acessibilidade digital a diferentes públicos, incluindo pessoas com deficiência visual, motora ou cognitiva.
+Entre as ações realizadas:
+
+Uso de contrastes adequados entre texto e fundo;
+
+Textos alternativos (alt) em todas as imagens;
+
+Estruturação semântica com tags HTML apropriadas (header, main, nav, footer);
+
+Navegação via teclado e foco visível;
+
+Compatibilidade com leitores de tela.
+
+Essas práticas visam tornar o conteúdo inclusivo, acessível e em conformidade com os padrões internacionais de acessibilidade web.
+
+
